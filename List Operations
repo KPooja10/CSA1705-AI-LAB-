@@ -1,0 +1,20 @@
+L = [10, 20, 30, 40, 50]
+
+print("List:", L)
+
+print("Nested List:", [L, [60, 70]])
+
+print("Length:", len(L))
+
+L2 = [60, 70]
+print("Concatenation:", L + L2)
+
+print("Membership:", 20 in L)
+
+print("Iteration:")
+for x in L:
+    print(x)
+
+print("Indexing:", L[2])
+
+print("Slicing:", L[1:4])
