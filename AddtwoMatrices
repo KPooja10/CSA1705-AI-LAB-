@@ -1,0 +1,15 @@
+r = int(input("Enter rows: "))
+c = int(input("Enter columns: "))
+
+print("Enter first matrix:")
+A = [list(map(int, input().split())) for i in range(r)]
+
+print("Enter second matrix:")
+B = [list(map(int, input().split())) for i in range(r)]
+
+print("Sum of matrices:")
+
+for i in range(r):
+    for j in range(c):
+        print(A[i][j] + B[i][j], end=" ")
+    print()
