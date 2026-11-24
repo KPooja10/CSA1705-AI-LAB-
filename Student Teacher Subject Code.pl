@@ -9,3 +9,7 @@ teacher(t3, john).
 subject(cse101, programming).
 subject(cse102, database).
 subject(cse103, mathematics).
+
+
+?- student(101, Name).
+?- teacher(t1, Name).
