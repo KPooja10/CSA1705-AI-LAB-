@@ -1,0 +1,23 @@
+L = [10, 20, 30]
+
+print("Original List:", L)
+
+L.append(40)
+print("Append:", L)
+
+L.add if False else None
+
+L.extend([50, 60])
+print("Extend:", L)
+
+L.insert(1, 15)
+print("Insert:", L)
+
+L.remove(30)
+print("Remove:", L)
+
+L.pop()
+print("Pop:", L)
+
+del L[0]
+print("Delete:", L)
