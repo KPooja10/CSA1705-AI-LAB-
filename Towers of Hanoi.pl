@@ -11,3 +11,4 @@ hanoi(N, A, B, C) :-
     hanoi(N1, A, C, B),
     hanoi(1, A, B, C),
     hanoi(N1, B, A, C).
+?- hanoi(3, a, b, c).
